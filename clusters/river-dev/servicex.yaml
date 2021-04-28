@@ -1,0 +1,17 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: servivex
+  namespace: sthapa
+spec:
+  interval: 5m
+  releaseName: servicex
+  chart:
+    spec:
+      chart: servicex
+      sourceRef:
+        kind: HelmRepository
+        name: servicex
+  valuesFrom:
+    - kind: ConfigMap
+      name: values
