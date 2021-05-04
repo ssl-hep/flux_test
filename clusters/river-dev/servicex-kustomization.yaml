@@ -6,6 +6,7 @@ metadata:
   namespace: sthapa
 spec:
   interval: 5m0s
+  url: https://github.com/sthapa/servicex
   path: ./kustomize
   prune: true
   sourceRef:
