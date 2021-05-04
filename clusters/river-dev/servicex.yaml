@@ -6,7 +6,6 @@ metadata:
 spec:
   interval: 5m
   releaseName: servicex
-  url: https://github.com/sthapa/servicex
   chart:
     spec:
       chart: servicex
