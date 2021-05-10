@@ -24,7 +24,7 @@ metadata:
   namespace: sthapa
 spec:
   interval: 30s
+  url: ssh://git@github.com/sthapa/ServiceX
   ref:
     branch: develop
-  url: https://github.com/sthapa/ServiceX/
 
